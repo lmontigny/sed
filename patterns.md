@@ -4,5 +4,5 @@ Delete the first number on all lines that start with a "#,"
 Change delimiter by ,
 `sed '\,^#, s/[0-9][0-9]*//'`
 
-Remoing commant+blank line
+Remoing comment+blank line
 `sed -e 's/#.*//' -e '/^$/ d'`
